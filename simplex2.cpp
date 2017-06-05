@@ -102,9 +102,9 @@ void Calc::simplexMethod()
     }
     
     // 結果出力
-    // 選んだ列の値が全て０以下なら「解無し」
+    // 選んだ列の値が全て０以下なら「最適解無し」
     if(flag != -1){
-        printf("解無し\n");
+        printf("最適解無し\n");
     }
     
     for (j = 0; j < N_VAR; j++) {
