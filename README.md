@@ -1,4 +1,5 @@
 # Simplex_method
+## C++
 参考：http://www.mk-mode.com/octopress/2014/02/21/cpp-linear-programming-by-simplex/
 
 最適解が存在しない場合にもループを停止する。また、ループ毎にシンプレックスタブローを出力。
