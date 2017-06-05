@@ -1,6 +1,8 @@
 # Simplex_method
 参考：http://www.mk-mode.com/octopress/2014/02/21/cpp-linear-programming-by-simplex/
 
+最適解が存在しない場合にもループを停止する。
+
 問題毎に修正が必要なのは、定数(#define)と係数行列のみ。
 
 ## simplex1.cpp
