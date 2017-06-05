@@ -1,3 +1,6 @@
+/*
+ * 最適解が存在しない場合
+ */
 #include <iostream>  // for cout
 #include <stdio.h>   // for printf()
 

@@ -1,3 +1,6 @@
+/*
+ * 行列の行数が目的関数の変数の個数に満たない場合
+ */
 #include <iostream>  // for cout
 #include <stdio.h>   // for printf()
 

@@ -1,3 +1,6 @@
+/*
+ * Slack変数の最終解も求めたい場合（制約条件に目的関数に無い変数が含まれる場合）
+ */
 #include <iostream>  // for cout
 #include <stdio.h>   // for printf()
 
