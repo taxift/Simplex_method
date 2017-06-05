@@ -18,13 +18,13 @@ class Calc
     int i, j, x, y, flag;
     
 public:
-    void calcLinearProgramming();   // 線形計画法
+    void simplexMethod();   // 線形計画法（シンプレックス法）
 };
 
 /*
- * 線形計画法
+ * 線形計画法（シンプレックス法）
  */
-void Calc::calcLinearProgramming()
+void Calc::simplexMethod()
 {
     flag = 0;
     
@@ -133,10 +133,10 @@ int main()
     try
     {
         // 計算クラスインスタンス化
-        Calc obiCalc;
+        Calc objCalc;
         
-        // 線形計画法
-        obiCalc.calcLinearProgramming();
+        // 線形計画法（シンプレックス法）
+        objCalc.simplexMethod();
     }
     catch (...) {
         cout << "例外発生！" << endl;
