@@ -15,3 +15,6 @@ Slack変数の最終解も求めたい場合（制約条件に目的関数に無
 ## simplex3.cpp
 最適解が存在しない場合
 
+## Python
+参考：https://siguniang.wordpress.com/2016/01/11/solve-linear-programming-with-scipy/
+
